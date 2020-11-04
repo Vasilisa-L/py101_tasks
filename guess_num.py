@@ -18,7 +18,7 @@ import sys
 
 if __name__ == '__main__':
     print('Hey, darling!\nAre u ready for a little game?\nI\'m thinking of a number from one to 1000000\nCan u guess it?')
-    grange = 100
+    grange = 1000000
     number_to_guess = randint(0, grange)
     user_number = 0
     while user_number != number_to_guess:
