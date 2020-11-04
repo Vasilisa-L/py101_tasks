@@ -9,4 +9,13 @@
 """
 
 if __name__ == '__main__':
-    pass
+    for i in range(100):
+        flag3 = False
+        if (i+1) % 3 == 0:
+            flag3 = True
+        if (i+1) % 5 == 0:
+            print('zip-zap') if flag3 else print('zap')
+        elif flag3:
+            print('zip')
+        else:
+            print(str(i+1))
